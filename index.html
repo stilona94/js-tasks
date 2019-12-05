@@ -5,14 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 13. JS intro</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="js/script.js" defer></script>
-    <script src="js/my.js" defer></script>
+    <title>Lesson 14. JS intro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body>
-    <div id="result">No result</div>
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <input class="form-control" placeholder="First value" id="first-value">
+            </div>
+            <div class="col-md-6">
+                <input class="form-control" placeholder="Second value" id="second-value">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" id="verify">Verify</button>
+                <button class="btn btn-primary" id="sum" onclick="sum()">Sum</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
 </body>
 
 </html>
